@@ -8,6 +8,8 @@ import { LogoComponent } from './logo/logo.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { LanguageSwitcherComponent } from './language-switcher/language-switcher.component';
 import { ProfileButtonComponent } from './profile-button/profile-button.component';
+import { SiteMapComponent } from './site-map/site-map.component';
+import { FooterInfoComponent } from './footer-info/footer-info.component';
 
 
 
@@ -19,7 +21,9 @@ import { ProfileButtonComponent } from './profile-button/profile-button.componen
     LogoComponent,
     NavigationComponent,
     LanguageSwitcherComponent,
-    ProfileButtonComponent
+    ProfileButtonComponent,
+    SiteMapComponent,
+    FooterInfoComponent
   ],
   imports: [
     CommonModule,
